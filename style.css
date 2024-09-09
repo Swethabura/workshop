@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body,
-html {
+html{
+  scroll-behavior: smooth;
+}
+body{
+  width: 100vw;
   height: 100vw;
   margin: 0;
+  overflow-x: hidden;
 }
 .container {
   height: 100%;
