@@ -64,9 +64,6 @@ ul li a {
 .image3 {
   background-image: url("img3.avif");
 }
-/* .image4 {
-    background-image: url("img4.avif");
-  } */
 .text,
 .text2,
 .text3 {
@@ -103,11 +100,6 @@ ul li a {
   top: 245%;
   height: 70%;
 }
-/* .text4{
-        position: absolute;
-        top: 350%;
-        height: 70%;
-    } */
 .content {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,108 @@
+body {
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container {
+    width: 90vw;
+    height: 35vh;
+    /* border: 1px solid; */
+    /* background-color: blanchedalmond; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .fl {
+    width: 28vw;
+    height: 30vh;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* common feature */
+.fl-line {
+    width: 100%;
+    display: flex ;
+    position: relative;
+    /* justify-content: space-around; */
+}
+#fl-logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 15px;
+}
+.fl-star {
+    display: flex;
+    flex-direction: column;
+}
+#stripe {
+    font-weight: 600;
+}
+/* common feature */
+#star {
+    color: green;
+    font-size: 140%;
+}
+/* common feature */
+.sl-line {
+    margin-left: 5%;
+    font-weight: 600;
+    margin-right: 3%;
+}
+/* common feature */
+.tl-line{
+    display: flex;
+    justify-content:space-between;
+    margin: 0% 5%;
+    font-size: 75%;
+}
+/* common feature */
+#view {
+    color: blue;
+}
+.container .sl {
+    width: 28vw;
+    height: 30vh;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sl-logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 15px;
+}
+.sl-star {
+    display: flex;
+    flex-direction: column;
+}
+#mailchimp {
+    font-weight: 600;
+}
+.container .tl {
+    width: 28vw;
+    height: 30vh;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tl-logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 15px;
+}
+.tl-star {
+    display: flex;
+    flex-direction: column;
+}
+#dropbox {
+    font-weight: 600;
+}
+
